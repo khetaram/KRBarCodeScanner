@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BB701583374361EBF726FC042071F6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0DCA34B3DFF812C1F30141D42261A35A /* KRBarCodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73EBAA220F72A41216EEAB3AD370CC01 /* KRBarCodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CDA5543E2444971A315BB7EEB89548A /* KRBarCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C32E1135F516D0FC6075F3F19FBD635 /* KRBarCodeScannerView.swift */; };
+		37DF38EFAC8E4176F5B2A28BCFE31642 /* Pods-KRBarCodeScanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A089208EEDE373ECD862082EE8B1672E /* Pods-KRBarCodeScanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52750A3E542AC5155B2AF6E0C82FFC91 /* Pods-KRBarCodeScanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F383E0F77FFED6FCC255FE24748BE993 /* Pods-KRBarCodeScanner_Tests-dummy.m */; };
+		540E0B602ED6018FFB8AC0CBEC7E69F6 /* KRBarCodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA9060037810738AD265EA6110FA373 /* KRBarCodeScanner-dummy.m */; };
+		643C5AEAF83C661DD50FF2CA82177019 /* Pods-KRBarCodeScanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F4249C20B0C929823567CA349FCD72 /* Pods-KRBarCodeScanner_Example-dummy.m */; };
+		9E00AFF03B194AB0EFE0D8BE091F3B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9EE77AFB617C4581080D03CB7E3A2B7C /* Pods-KRBarCodeScanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE2E044C0F40F8973975903B9C20FCC /* Pods-KRBarCodeScanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD1CA21B18982A7BC7249F8FE24FD450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A144B5C991D155990158F60B1EF149C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FF7AE3F02644BC356943E336FAE02E;
+			remoteInfo = KRBarCodeScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02217702FD18AD18C6E100C21E5A18BD /* Pods-KRBarCodeScanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KRBarCodeScanner_Example.modulemap"; sourceTree = "<group>"; };
+		07F5DD15887614130685C341F5E2F95E /* Pods-KRBarCodeScanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRBarCodeScanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B1D5DF8788CB158FB248095C1F91BF1 /* Pods-KRBarCodeScanner_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRBarCodeScanner_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		10E09F083DA8BF5C3BA79947A9D1EFD4 /* Pods-KRBarCodeScanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRBarCodeScanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14A65B97A129D206511E0E233FD04910 /* Pods-KRBarCodeScanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRBarCodeScanner_Example.release.xcconfig"; sourceTree = "<group>"; };
+		196AF676049CE75210076F60FC1362F8 /* Pods-KRBarCodeScanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRBarCodeScanner_Example-frameworks.sh"; sourceTree = "<group>"; };
+		19D36F9E110734CE4D474DAFD073F9A9 /* KRBarCodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KRBarCodeScanner.modulemap; sourceTree = "<group>"; };
+		1BA651F685C283350F45FCFECBE33703 /* KRBarCodeScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRBarCodeScanner.xcconfig; sourceTree = "<group>"; };
+		2133047F7846146615DA1BFBE3793DC5 /* Pods_KRBarCodeScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRBarCodeScanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DAAC9082FE7847438DD698ECDF0359 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C32E1135F516D0FC6075F3F19FBD635 /* KRBarCodeScannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KRBarCodeScannerView.swift; sourceTree = "<group>"; };
+		4A787C2FC2D94452D05A5899D6A6349E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E33C9F41ABB74D93789A085AE526B8A /* Pods-KRBarCodeScanner_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRBarCodeScanner_Tests-resources.sh"; sourceTree = "<group>"; };
+		58F4249C20B0C929823567CA349FCD72 /* Pods-KRBarCodeScanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRBarCodeScanner_Example-dummy.m"; sourceTree = "<group>"; };
+		66C715F676DC06ED8AD71C4CF919D93E /* Pods-KRBarCodeScanner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRBarCodeScanner_Example-resources.sh"; sourceTree = "<group>"; };
+		73EBAA220F72A41216EEAB3AD370CC01 /* KRBarCodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRBarCodeScanner-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A089208EEDE373ECD862082EE8B1672E /* Pods-KRBarCodeScanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRBarCodeScanner_Example-umbrella.h"; sourceTree = "<group>"; };
+		A7719708B21D6387BEEBC9CE68E4CCD3 /* KRBarCodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRBarCodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA6A9FBFAF13DB5350181F46C01BA36 /* Pods-KRBarCodeScanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRBarCodeScanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B4C1932516EC3F3561E507DDE69AD22B /* Pods-KRBarCodeScanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRBarCodeScanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CCE2E044C0F40F8973975903B9C20FCC /* Pods-KRBarCodeScanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRBarCodeScanner_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2EEE8FB7B73C01DEC882BDE85D21A6F /* Pods-KRBarCodeScanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRBarCodeScanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB5ADC85FD2C946A3D583DC3F2BEC582 /* Pods-KRBarCodeScanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRBarCodeScanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFA9060037810738AD265EA6110FA373 /* KRBarCodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRBarCodeScanner-dummy.m"; sourceTree = "<group>"; };
+		E0FE2B26D8D4D757F9A1BE50493F1E34 /* Pods-KRBarCodeScanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRBarCodeScanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBDEC701DF5AFB9DF4C9C8480DA73697 /* Pods-KRBarCodeScanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KRBarCodeScanner_Tests.modulemap"; sourceTree = "<group>"; };
+		F30995F1571D21BC2447CF639A6BE35E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F383E0F77FFED6FCC255FE24748BE993 /* Pods-KRBarCodeScanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRBarCodeScanner_Tests-dummy.m"; sourceTree = "<group>"; };
+		F88D6F654469517A292A5DFBB899B57E /* KRBarCodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRBarCodeScanner-prefix.pch"; sourceTree = "<group>"; };
+		F971D28637545E99DB331E8FACC86DE2 /* Pods_KRBarCodeScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRBarCodeScanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50C481929609D18197FCF64BDE5A6CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E00AFF03B194AB0EFE0D8BE091F3B25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2E87536E1F34C6A9FD04F2376DE4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB701583374361EBF726FC042071F6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E257DAB70A4F71D2D7AE7B5A34581A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1CA21B18982A7BC7249F8FE24FD450 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188C7962970673B1B01364B84B5C3263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7719708B21D6387BEEBC9CE68E4CCD3 /* KRBarCodeScanner.framework */,
+				F971D28637545E99DB331E8FACC86DE2 /* Pods_KRBarCodeScanner_Example.framework */,
+				2133047F7846146615DA1BFBE3793DC5 /* Pods_KRBarCodeScanner_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F4C7EFA82EDC8205490E77867BA90B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6878979C6271FCE61B1E879EBD122 /* Pods-KRBarCodeScanner_Example */,
+				E3F5F0394B74E7712392D5F2467DE4C3 /* Pods-KRBarCodeScanner_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		78D69A837230585411F4FF2AA3368C35 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22DAAC9082FE7847438DD698ECDF0359 /* Info.plist */,
+				19D36F9E110734CE4D474DAFD073F9A9 /* KRBarCodeScanner.modulemap */,
+				1BA651F685C283350F45FCFECBE33703 /* KRBarCodeScanner.xcconfig */,
+				DFA9060037810738AD265EA6110FA373 /* KRBarCodeScanner-dummy.m */,
+				F88D6F654469517A292A5DFBB899B57E /* KRBarCodeScanner-prefix.pch */,
+				73EBAA220F72A41216EEAB3AD370CC01 /* KRBarCodeScanner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KRBarCodeScanner";
+			sourceTree = "<group>";
+		};
+		7A887DA4DA30C085224B9E6E5D858101 /* KRBarCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				E666330F4C44BAD5FEF35EC973697E98 /* KRBarCodeScanner */,
+				78D69A837230585411F4FF2AA3368C35 /* Support Files */,
+			);
+			name = KRBarCodeScanner;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A5BCDAB176DF13A6886494A12B0415AF /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				188C7962970673B1B01364B84B5C3263 /* Products */,
+				6F4C7EFA82EDC8205490E77867BA90B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A5BCDAB176DF13A6886494A12B0415AF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A887DA4DA30C085224B9E6E5D858101 /* KRBarCodeScanner */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B1E93BE48DB4CA4137BFF7307826064A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C32E1135F516D0FC6075F3F19FBD635 /* KRBarCodeScannerView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3F5F0394B74E7712392D5F2467DE4C3 /* Pods-KRBarCodeScanner_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F30995F1571D21BC2447CF639A6BE35E /* Info.plist */,
+				EBDEC701DF5AFB9DF4C9C8480DA73697 /* Pods-KRBarCodeScanner_Tests.modulemap */,
+				10E09F083DA8BF5C3BA79947A9D1EFD4 /* Pods-KRBarCodeScanner_Tests-acknowledgements.markdown */,
+				07F5DD15887614130685C341F5E2F95E /* Pods-KRBarCodeScanner_Tests-acknowledgements.plist */,
+				F383E0F77FFED6FCC255FE24748BE993 /* Pods-KRBarCodeScanner_Tests-dummy.m */,
+				0B1D5DF8788CB158FB248095C1F91BF1 /* Pods-KRBarCodeScanner_Tests-frameworks.sh */,
+				4E33C9F41ABB74D93789A085AE526B8A /* Pods-KRBarCodeScanner_Tests-resources.sh */,
+				CCE2E044C0F40F8973975903B9C20FCC /* Pods-KRBarCodeScanner_Tests-umbrella.h */,
+				E0FE2B26D8D4D757F9A1BE50493F1E34 /* Pods-KRBarCodeScanner_Tests.debug.xcconfig */,
+				B4C1932516EC3F3561E507DDE69AD22B /* Pods-KRBarCodeScanner_Tests.release.xcconfig */,
+			);
+			name = "Pods-KRBarCodeScanner_Tests";
+			path = "Target Support Files/Pods-KRBarCodeScanner_Tests";
+			sourceTree = "<group>";
+		};
+		E666330F4C44BAD5FEF35EC973697E98 /* KRBarCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				B1E93BE48DB4CA4137BFF7307826064A /* Classes */,
+			);
+			path = KRBarCodeScanner;
+			sourceTree = "<group>";
+		};
+		F5C6878979C6271FCE61B1E879EBD122 /* Pods-KRBarCodeScanner_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4A787C2FC2D94452D05A5899D6A6349E /* Info.plist */,
+				02217702FD18AD18C6E100C21E5A18BD /* Pods-KRBarCodeScanner_Example.modulemap */,
+				DB5ADC85FD2C946A3D583DC3F2BEC582 /* Pods-KRBarCodeScanner_Example-acknowledgements.markdown */,
+				D2EEE8FB7B73C01DEC882BDE85D21A6F /* Pods-KRBarCodeScanner_Example-acknowledgements.plist */,
+				58F4249C20B0C929823567CA349FCD72 /* Pods-KRBarCodeScanner_Example-dummy.m */,
+				196AF676049CE75210076F60FC1362F8 /* Pods-KRBarCodeScanner_Example-frameworks.sh */,
+				66C715F676DC06ED8AD71C4CF919D93E /* Pods-KRBarCodeScanner_Example-resources.sh */,
+				A089208EEDE373ECD862082EE8B1672E /* Pods-KRBarCodeScanner_Example-umbrella.h */,
+				ADA6A9FBFAF13DB5350181F46C01BA36 /* Pods-KRBarCodeScanner_Example.debug.xcconfig */,
+				14A65B97A129D206511E0E233FD04910 /* Pods-KRBarCodeScanner_Example.release.xcconfig */,
+			);
+			name = "Pods-KRBarCodeScanner_Example";
+			path = "Target Support Files/Pods-KRBarCodeScanner_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7A41E376070078F109690A68B383A3E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE77AFB617C4581080D03CB7E3A2B7C /* Pods-KRBarCodeScanner_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D5F5FBA25683C3FE96AA1B8B19E0C12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF38EFAC8E4176F5B2A28BCFE31642 /* Pods-KRBarCodeScanner_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B592C3CE08344957CDB54DB6CB39BAF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCA34B3DFF812C1F30141D42261A35A /* KRBarCodeScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F5376C95D455E954236C3D65CEC6FBD /* Pods-KRBarCodeScanner_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906CFBFFFE5FDC2008EF6C0CD03DD227 /* Build configuration list for PBXNativeTarget "Pods-KRBarCodeScanner_Example" */;
+			buildPhases = (
+				E625A573E5EEB6352CCA53722E03BB97 /* Sources */,
+				E257DAB70A4F71D2D7AE7B5A34581A34 /* Frameworks */,
+				7D5F5FBA25683C3FE96AA1B8B19E0C12 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC2B59B9C0B04912B7340A5675DEEA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-KRBarCodeScanner_Example";
+			productName = "Pods-KRBarCodeScanner_Example";
+			productReference = F971D28637545E99DB331E8FACC86DE2 /* Pods_KRBarCodeScanner_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6FF7AE3F02644BC356943E336FAE02E /* KRBarCodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61BA9FCFC39D26E3AC3DA8DF8D11750 /* Build configuration list for PBXNativeTarget "KRBarCodeScanner" */;
+			buildPhases = (
+				CE1E2CE6513838B0648CD7E5E70840A9 /* Sources */,
+				50C481929609D18197FCF64BDE5A6CD1 /* Frameworks */,
+				B592C3CE08344957CDB54DB6CB39BAF1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRBarCodeScanner;
+			productName = KRBarCodeScanner;
+			productReference = A7719708B21D6387BEEBC9CE68E4CCD3 /* KRBarCodeScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E39712CD460D037A6C3C4FCA590A0511 /* Pods-KRBarCodeScanner_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D475673BFC20649626C24A331194F85 /* Build configuration list for PBXNativeTarget "Pods-KRBarCodeScanner_Tests" */;
+			buildPhases = (
+				849D85CD1E8F7A23D660D9A208A6511D /* Sources */,
+				7E2E87536E1F34C6A9FD04F2376DE4DF /* Frameworks */,
+				7A41E376070078F109690A68B383A3E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KRBarCodeScanner_Tests";
+			productName = "Pods-KRBarCodeScanner_Tests";
+			productReference = 2133047F7846146615DA1BFBE3793DC5 /* Pods_KRBarCodeScanner_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 188C7962970673B1B01364B84B5C3263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6FF7AE3F02644BC356943E336FAE02E /* KRBarCodeScanner */,
+				2F5376C95D455E954236C3D65CEC6FBD /* Pods-KRBarCodeScanner_Example */,
+				E39712CD460D037A6C3C4FCA590A0511 /* Pods-KRBarCodeScanner_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849D85CD1E8F7A23D660D9A208A6511D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52750A3E542AC5155B2AF6E0C82FFC91 /* Pods-KRBarCodeScanner_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1E2CE6513838B0648CD7E5E70840A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540E0B602ED6018FFB8AC0CBEC7E69F6 /* KRBarCodeScanner-dummy.m in Sources */,
+				1CDA5543E2444971A315BB7EEB89548A /* KRBarCodeScannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E625A573E5EEB6352CCA53722E03BB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643C5AEAF83C661DD50FF2CA82177019 /* Pods-KRBarCodeScanner_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EC2B59B9C0B04912B7340A5675DEEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRBarCodeScanner;
+			target = D6FF7AE3F02644BC356943E336FAE02E /* KRBarCodeScanner */;
+			targetProxy = 7A144B5C991D155990158F60B1EF149C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		003B63E540350CB9913C9C77427C4B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A65B97A129D206511E0E233FD04910 /* Pods-KRBarCodeScanner_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KRBarCodeScanner_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRBarCodeScanner_Example/Pods-KRBarCodeScanner_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KRBarCodeScanner_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		265A14F5682D7563D68BF0A26470F54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA6A9FBFAF13DB5350181F46C01BA36 /* Pods-KRBarCodeScanner_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KRBarCodeScanner_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRBarCodeScanner_Example/Pods-KRBarCodeScanner_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KRBarCodeScanner_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3923B9C8A87AEF3FF25840D07CAE4587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA651F685C283350F45FCFECBE33703 /* KRBarCodeScanner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KRBarCodeScanner/KRBarCodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRBarCodeScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRBarCodeScanner/KRBarCodeScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KRBarCodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4838E47B1D7A9969D1F2727B86EB68B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA651F685C283350F45FCFECBE33703 /* KRBarCodeScanner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KRBarCodeScanner/KRBarCodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRBarCodeScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRBarCodeScanner/KRBarCodeScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KRBarCodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91EB2C6255C33FC3D39084CC51BD4C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FE2B26D8D4D757F9A1BE50493F1E34 /* Pods-KRBarCodeScanner_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KRBarCodeScanner_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRBarCodeScanner_Tests/Pods-KRBarCodeScanner_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KRBarCodeScanner_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7D6F460DED46B64DE491FB4411290A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C1932516EC3F3561E507DDE69AD22B /* Pods-KRBarCodeScanner_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KRBarCodeScanner_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRBarCodeScanner_Tests/Pods-KRBarCodeScanner_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KRBarCodeScanner_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D475673BFC20649626C24A331194F85 /* Build configuration list for PBXNativeTarget "Pods-KRBarCodeScanner_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EB2C6255C33FC3D39084CC51BD4C48 /* Debug */,
+				B7D6F460DED46B64DE491FB4411290A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906CFBFFFE5FDC2008EF6C0CD03DD227 /* Build configuration list for PBXNativeTarget "Pods-KRBarCodeScanner_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265A14F5682D7563D68BF0A26470F54B /* Debug */,
+				003B63E540350CB9913C9C77427C4B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61BA9FCFC39D26E3AC3DA8DF8D11750 /* Build configuration list for PBXNativeTarget "KRBarCodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3923B9C8A87AEF3FF25840D07CAE4587 /* Debug */,
+				4838E47B1D7A9969D1F2727B86EB68B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

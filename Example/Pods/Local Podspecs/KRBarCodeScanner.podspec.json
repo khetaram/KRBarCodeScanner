@@ -1,0 +1,22 @@
+{
+  "name": "KRBarCodeScanner",
+  "version": "0.1.0",
+  "summary": "A short description of KRBarCodeScanner.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/KRBarCodeScanner",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "khetaram": "khetaram.kumawat@tarams.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/KRBarCodeScanner.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KRBarCodeScanner/Classes/**/*"
+}

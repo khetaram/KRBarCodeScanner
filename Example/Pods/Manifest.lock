@@ -1,0 +1,16 @@
+PODS:
+  - KRBarCodeScanner (0.1.0)
+
+DEPENDENCIES:
+  - KRBarCodeScanner (from `../`)
+
+EXTERNAL SOURCES:
+  KRBarCodeScanner:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KRBarCodeScanner: fc8dd2ccfccfbea370b6fd16b477810732b46893
+
+PODFILE CHECKSUM: 09755b3b6810375ade0b38dab346e160d6841117
+
+COCOAPODS: 1.0.1

@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import KRBarCodeScanner
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let vi = KRBarCodeScannerView(frame:CGRectMake(100,100,200,200))
+        self.view.addSubview(vi)
+        vi.startScanning()
     }
 
     override func didReceiveMemoryWarning() {
